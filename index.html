@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student</title>
+  <!-- Css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/06aa983bed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="main">
+    <h2 id="text">Text Converter</h2>
+    <div class="input">
+      <i class="fa-regular fa-copy"></i>
+      <input type="text" placeholder="Text">
+    </div>
+    <div class="btns">
+      <div>
+         <input type="radio" id="U" name="text">
+         <label for="U">UpperCase</label>
+      </div>
+      <div>
+        <input type="radio" id="L" name="text">
+        <label for="L">LowerCase</label>
+      </div>
+      <div>
+        <input type="radio" id="encode" name="text">
+        <label for="encode">Encode Base 64</label>
+      </div>
+      <div>
+        <input type="radio" id="decode" name="text">
+        <label for="decode">Decode Base 64</label>
+      </div>
+    </div>
+    <div class="convertBtn">
+      <button>Convert</button>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  height: 100vh;
+}
+.main {
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#85AE74,#74A8AE);
+  user-select: none;
+}
+#text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.fa-copy {
+  position: absolute;
+  right: 45px;
+  top: 10px;
+  font-size: 20px;
+}
+.input input {
+  width: 80%;
+  height: 40px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+.btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.btns div {
+  width: 60%;
+  margin-top: 10px;
+  display: flex;
+}
+.convertBtn {
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.convertBtn button { 
+  height: 100%;
+  width: 85%;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 1.3rem;
+  background: #3C6E43;
+  color: #fff;
+}
+label {
+  margin-left: 7px;
+}
+.convertBtn button:active {
+  background: #5DA167;
+}
